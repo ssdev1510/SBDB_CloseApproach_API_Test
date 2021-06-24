@@ -43,11 +43,11 @@
 
 **Logs:** Logs can be found under (folder - "\logs" )folder, file - ".log".
 ## **Directory Structure:**
-![Alt text](/readmeImages/directory.png?raw=true)
+<kbd>![Alt text](/readmeImages/directory.png?raw=true)</kbd>
 
 ## **Test output from Terminal:**
 
-![Alt text](/readmeImages/buildSuccess.png?raw=true)
+<kbd>![Alt text](/readmeImages/buildSuccess.png?raw=true)</kbd>
 
 ## **Reports**:
 
@@ -57,12 +57,12 @@
 
 ![Alt text](/readmeImages/HtmlView.png?raw=true)
 
--Test scenario view having both failed/passed tc.
+-View having both Passed/Failed Scenarios.
 
-![Alt text](/readmeImages/testScenario.png?raw=true)
+[Alt text](/readmeImages/testScenario.png?raw=true)
 
 **2) PDF Report:**
 
-![Alt text](/readmeImages/pdfReport1.png?raw=true)
+<kbd>![Alt text](/readmeImages/pdfReport1.png?raw=true)</kbd>
 
-![Alt text](/readmeImages/pdfReport2.png?raw=true)
+<kbd>![Alt text](/readmeImages/pdfReport2.png?raw=true)</kbd>
