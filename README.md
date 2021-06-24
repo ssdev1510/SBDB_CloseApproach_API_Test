@@ -59,7 +59,7 @@
 
 -View having both Passed/Failed Scenarios.
 
-[Alt text](/readmeImages/testScenario.png?raw=true)
+![Alt text](/readmeImages/testScenario.png?raw=true)
 
 **2) PDF Report:**
 
