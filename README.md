@@ -1,7 +1,3 @@
-# SBDB_CloseApproach_API_Test
-API Automation Framework
-
-
 # **Assignment- API Test automation for SBDB Close-Approach Data API.**
 
 **Technical Stack:**
@@ -11,8 +7,8 @@ API Automation Framework
 - Reporting: Spark & Cucumber reporting.
 - Build tool: Maven
 - Java 1.8+
-# #Cucumber-API-Automation-Framework using Rest Assured Library.
-## This framework contains:
+## Cucumber-API-Automation-Framework using Rest Assured Library.
+  **This framework contains:**
 - Runner class > Defines which feature/step Definitions/Reports Plugins to include in test.
 - Rest-Assured Utils class > Defines different methods of Rest-Assured library.
 - Step Definitions class > Defines implementation of test scenarios defined in feature file.
@@ -35,25 +31,25 @@ API Automation Framework
 - Both Failed/Passed scenario Test result report screenshot you can find below.
 
 ## **Steps to run at your system/container:**
-Pre-request: Maven, Java, Git installation.
+**Prerequisite:** Maven, Java, Git installation.
 
 - Clone the repository using "git clone {repo git url}"
 - Run "mvn clean"
 - Run "mvn test"
 ## **Reports:** 
-## **- This will generate two visual reports:**
+  **This will generate two visual reports:**
 - HTML Reporting (folder - "target\test-output\SparkReport"), file - "index.html"
-- PDF Reporting (folder - " target\test-output-pdf/PDFReport"), file - "ExtentPdf.pdf"
+- PDF Reporting (folder - "target\test-output-pdf\PDFReport"), file - "ExtentPdf.pdf"
 
-**Logs:** Logs can be found under /logs folder.
-## **Directory structure:**
+**Logs:** Logs can be found under (folder - "\logs" )folder, file - ".log".
+## **Directory Structure:**
 ![Alt text](/readmeImages/directory.png?raw=true)
 
 **Test output from Terminal:**
 
 ![Alt text](/readmeImages/buildSuccess.png?raw=true)
 
-**Reports**:
+## **Reports**:
 
 **1) HTML Report**
 
