@@ -45,7 +45,7 @@
 ## **Directory Structure:**
 ![Alt text](/readmeImages/directory.png?raw=true)
 
-**Test output from Terminal:**
+## **Test output from Terminal:**
 
 ![Alt text](/readmeImages/buildSuccess.png?raw=true)
 
