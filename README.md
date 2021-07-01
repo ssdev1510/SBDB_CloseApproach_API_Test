@@ -45,7 +45,7 @@
 - Run "git clone https://github.com/ssdev1510/SBDB_CloseApproach_API_Test.git" to Clone the repository.
 - Run "cd SBDB_CloseApproach_API_Test" to Go inside directory.
 - Run "sudo docker build -t sbdb_api_image ." to Build docker image from Dockerfile.
-- Run "docker run --name sbdb_image_name -it -v `pwd`:/SBDB_CloseApproach_API_Test sbdb_api_image mvn clean test" to Run docker container using the image built in the above step and to execute maven commands. -v flag: sync files form the local system to the container.
+- Run "docker run --name sbdb_image_name -it -v `` `pwd` ``:/SBDB_CloseApproach_API_Test sbdb_api_image mvn clean test" to Run docker container using the image built in the above step and to execute maven commands. -v flag: sync files form the local system to the container.
 - Run "docker rm sbdb_image_name" to Remove docker container.
 - Run "docker rmi sbdb_api_image" to  Remove docker image.
 - Check the test result report as mentioned in below section.
