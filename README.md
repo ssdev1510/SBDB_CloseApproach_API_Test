@@ -34,6 +34,7 @@
 **Prerequisite:** Maven, Java, Git installation.
 
 - Clone the repository using "git clone {repo git url}"
+- cd SBDB_CloseApproach_API_Test
 - Run "mvn clean"
 - Run "mvn test"
 ## **Reports:** 
