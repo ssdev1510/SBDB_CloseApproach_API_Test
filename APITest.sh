@@ -3,12 +3,12 @@
 #Prerequist - Docker, Java, Maven, Git setup on local machine.
 
 #Git Clone
-echo ">>>> Cloning the git repository from github <<<<"
-git clone https://github.com/ssdev1510/SBDB_CloseApproach_API_Test.git
+#echo ">>>> Cloning the git repository from github <<<<"
+#git clone https://github.com/ssdev1510/SBDB_CloseApproach_API_Test.git
 
 #Getting into the directory
-echo ">>>> Getting into the directory <<<<"
-cd SBDB_CloseApproach_API_Test
+#echo ">>>> Getting into the directory <<<<"
+#cd SBDB_CloseApproach_API_Test
 
 #Building image from Dockerfile
 echo ">>>> Creating image from docker file with name sbdb_api_image <<<<"
