@@ -50,7 +50,12 @@
 - Run "docker rmi sbdb_api_image" to  Remove docker image.
 - Check the test result report as mentioned in below section.
 
-**Note:** Above mentioned steps can also be execute in one go through shell script.
+**Note:** Above mentioned steps can also be execute in one go through shell script as mentioned below.
+**Prerequisite:** Docker, Maven, Java, Git installation.
+- Run "git clone https://github.com/ssdev1510/SBDB_CloseApproach_API_Test.git" to Clone the repository.
+- Run "cd SBDB_CloseApproach_API_Test" to Go inside directory.
+- Run "sudo bash ./APITest.sh" to execute shell script.
+- Check the test result report as mentioned in below section.
 
 ## **Reports:** 
   **This will generate two visual reports:**
