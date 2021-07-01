@@ -34,9 +34,15 @@
 **Prerequisite:** Maven, Java, Git installation.
 
 - Clone the repository using "git clone {repo git url}"
-- cd SBDB_CloseApproach_API_Test
+- Go inside directory using "cd SBDB_CloseApproach_API_Test"
 - Run "mvn clean"
 - Run "mvn test"
+
+## **Steps to run at Docker Container:**
+**Prerequisite:** Docker setup, Maven, Java, Git installation.
+
+TBD
+
 ## **Reports:** 
   **This will generate two visual reports:**
 - HTML Reporting (folder - "target\test-output\SparkReport"), file - "index.html"
