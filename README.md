@@ -7,6 +7,7 @@
 - Reporting: Spark & Cucumber reporting.
 - Build tool: Maven
 - Java 1.8+
+- Docker
 ## Cucumber-API-Automation-Framework using Rest Assured Library.
   **This framework contains:**
 - Runner class > Defines which feature/step Definitions/Reports Plugins to include in test.
@@ -33,20 +34,28 @@
 ## **Steps to run at your system/container:**
 **Prerequisite:** Maven, Java, Git installation.
 
-- Clone the repository using "git clone {repo git url}"
-- Go inside directory using "cd SBDB_CloseApproach_API_Test"
+- Run "git clone https://github.com/ssdev1510/SBDB_CloseApproach_API_Test.git" to Clone the repository.
+- Run "cd SBDB_CloseApproach_API_Test" to Go inside directory.
 - Run "mvn clean"
 - Run "mvn test"
+- Check the test result report as mentioned in below section.
 
 ## **Steps to run at Docker Container:**
-**Prerequisite:** Docker setup, Maven, Java, Git installation.
+**Prerequisite:** Docker, Maven, Java, Git installation.
+- Run "git clone https://github.com/ssdev1510/SBDB_CloseApproach_API_Test.git" to Clone the repository.
+- Run "cd SBDB_CloseApproach_API_Test" to Go inside directory.
+- Run "sudo docker build -t sbdb_api_image ." to Build docker image from Dockerfile.
+- Run "docker run --name sbdb_image_name -it -v `pwd`:/SBDB_CloseApproach_API_Test sbdb_api_image mvn clean test" to Run docker container using the image built in the above step and to execute maven commands. -v flag: sync files form the local system to the container.
+- Run "docker rm sbdb_image_name" to Remove docker container.
+- Run "docker rmi sbdb_api_image" to  Remove docker image.
+- Check the test result report as mentioned in below section.
 
-TBD
+**Note:** Above mentioned steps can also be execute in one go through shell script.
 
 ## **Reports:** 
   **This will generate two visual reports:**
-- HTML Reporting (folder - "target\test-output\SparkReport"), file - "index.html"
-- PDF Reporting (folder - "target\test-output-pdf\PDFReport"), file - "ExtentPdf.pdf"
+- HTML Reporting (Project folder - "target\test-output\SparkReport"), file - "index.html"
+- PDF Reporting (Project folder - "target\test-output-pdf\PDFReport"), file - "ExtentPdf.pdf"
 
 **Logs:** Logs can be found under (folder - "\logs" )folder, file - ".log".
 ## **Directory Structure:**
